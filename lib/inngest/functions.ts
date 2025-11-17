@@ -10,7 +10,7 @@ export const sendSignUpEmail = inngest.createFunction(
         - Country : ${event.data.country}
         - Investment goals: ${event.data.investmentGoals}
         - Risk tolerance: ${event.data.riskTolerance}
-        - Preferred indeustry: ${event.data.preferredIndustry}
+        - Preferred industry: ${event.data.preferredIndustry}
         `;
 
     const prompt = PERSONALIZED_WELCOME_EMAIL_PROMPT.replace(
