@@ -24,7 +24,7 @@ const Home = () => {
           />
         </div>
 
-        <div className="md:col-span xl:col-span-2">
+        <div className="md:col-span-1 xl:col-span-2">
           <TradingViewWidget
             title="Stock Heatmap"
             scriptUrl="https://s3.tradingview.com/external-embedding/embed-widget-stock-heatmap.js"
