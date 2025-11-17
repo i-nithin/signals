@@ -19,8 +19,8 @@ const layout = ({ children }: { children: React.ReactNode }) => {
       <section className="auth-right-section">
         <div className="z-10 relative lg:mt-4">
           <blockquote className="auth-blockquote">
-            Singnals tunred my watchlist into a winning list. The alerts are
-            on-spot, and I feel more confident making moves in the market.
+            Signals turned my watchlist into a winning list. The alerts are +
+            spot-on, and I feel more confident making moves in the market.
           </blockquote>
           <div className="flex items-center justify-between">
             <div>
