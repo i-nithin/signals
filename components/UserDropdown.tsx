@@ -22,7 +22,7 @@ import NavItems from './NavItems';
 
 const UserDropdown = () => {
   const router = useRouter();
-  const handleSignOut = async () => {
+  const handleSignOut = () => {
     router.push('/sign-in');
   };
 
@@ -33,7 +33,7 @@ const UserDropdown = () => {
       <DropdownMenuTrigger asChild>
         <Button
           variant="ghost"
-          className="flex item-center gap-3 text-gray-4 hover:text-yellow-500"
+          className="flex items-center gap-3 text-gray-400 hover:text-yellow-500"
         >
           <Avatar>
             <AvatarFallback className="bg-yellow-500 text-yellow-900 text-sm font-bold">
@@ -66,7 +66,7 @@ const UserDropdown = () => {
         <DropdownMenuSeparator className="bg-gray-600" />
         <DropdownMenuItem
           onClick={handleSignOut}
-          className="text-gray-100 text-md font-medium focus:bg-transparent focus:text-yellow-500 transition-colors curosr-pointer"
+          className="text-gray-100 text-base font-medium focus:bg-transparent focus:text-yellow-500 transition-colors cursor-pointer"
         >
           <LogOut className="h-5 w-5 mr-2" />
           Log out

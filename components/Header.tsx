@@ -14,7 +14,7 @@ const Header = () => {
             alt="signals logo"
             width={140}
             height={32}
-            className="h-8 w-auto curosr-pointer"
+            className="h-8 w-auto cursor-pointer"
           />
         </Link>
         <nav className="hidden sm:block">
