@@ -111,7 +111,7 @@ export const HEATMAP_WIDGET_CONFIG = {
   hasSymbolTooltip: true,
   isMonoSize: false,
   width: '100%',
-  height: '600',
+  height: 600,
 };
 
 export const TOP_STORIES_WIDGET_CONFIG = {
@@ -122,7 +122,7 @@ export const TOP_STORIES_WIDGET_CONFIG = {
   locale: 'en',
   market: 'stock',
   width: '100%',
-  height: '600',
+  height: 600,
 };
 
 export const MARKET_DATA_WIDGET_CONFIG = {
@@ -152,7 +152,7 @@ export const MARKET_DATA_WIDGET_CONFIG = {
         { name: 'NASDAQ:AAPL', displayName: 'Apple' },
         { name: 'NASDAQ:GOOGL', displayName: 'Alphabet' },
         { name: 'NASDAQ:MSFT', displayName: 'Microsoft' },
-        { name: 'NASDAQ:FB', displayName: 'Meta Platforms' },
+        { name: 'NASDAQ:META', displayName: 'Meta Platforms' },
         { name: 'NYSE:ORCL', displayName: 'Oracle Corp' },
         { name: 'NASDAQ:INTC', displayName: 'Intel Corp' },
       ],
